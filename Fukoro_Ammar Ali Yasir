@@ -145,8 +145,8 @@ plt.show()
 # Print impact notification
 if impact_detected:
     print(f"Rudal mengenai pesawat pada {impact_index * dt:.1f} detik.")
-    print(f"Posisi Rudal saat tabrakan ({missile_positions[impact_index, 0]:.2f}, {missile_positions[impact_index, 1]:.2f})")
-    print(f"Posisi Pesawat saat tabrakan: ({target_positions[impact_index, 0]:.2f}, {target_positions[impact_index, 1]:.2f})")
+    print(f"Posisi Rudal saat impact ({missile_positions[impact_index, 0]:.2f}, {missile_positions[impact_index, 1]:.2f})")
+    print(f"Posisi Pesawat saat impact ({target_positions[impact_index, 0]:.2f}, {target_positions[impact_index, 1]:.2f})")
 else:
     print("Rudal tidak mengenai pesawat dalam waktu simulasi.")
 
